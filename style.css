@@ -19,20 +19,6 @@ a:hover {
     color: gold;
 }
 
-.topbar {
-    height: 4rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    z-index: 10;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.topbar a {
-    text-decoration: none;
-    font-size: 2rem;
-}
-
 .intro {
     z-index: -1;
     font-weight: 200;
@@ -54,11 +40,6 @@ a:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     margin-bottom: 1.5rem;
     overflow: hidden;
-}
-
-.intro.small {
-    height: 12rem;
-    font-size: 6rem;
 }
 
 .intro img {
@@ -96,59 +77,8 @@ main .platforms li img {
     height: 32px;
 }
 
-.home {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    left: 10px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin: 1rem;
-}
-
-.person {
-    padding: 1rem;
-    background-color: #1f1f1f;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.person .name {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.person li {
-    font-size: 1.2rem;
-}
-
-.person ul {
-    padding: 0;
-}
-
-a.gallerylink {
-    font-size: 2rem;
-    padding: 1rem;
-    background-color: #1f1f1f;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 @media screen and (max-width: 600px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .intro:not(.small) {
+    .intro {
         height: 28rem;
     }
 }
