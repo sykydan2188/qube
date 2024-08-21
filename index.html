@@ -9,16 +9,20 @@
 </head>
 
 <body>
-    <div class="intro">
+    <div class="header intro">
         <img src="./images/logo.png">
         Puzzle Prism
     </div>
     <main>
         <p>...je hra pro virtuální realitu, která vznikla jako maturitní práce
             <a href="https://github.com/sykdan">Dana Sýkory</a>.<br>
-            Nechte se unést nekonečnými bludišti, která Vás budou <strong>fascinovat</strong>!
+            Nechte se unést nekonečnými bludišti, která Vás budou <strong>fascinovat</strong>!<br>
         </p>
-        <p><a href="https://github.com/sykdan/puzzle_prism/releases/latest">Stáhnout nyní</a></p>
+
+        <a href="https://github.com/sykdan/puzzle_prism/releases/latest" style="font-size: 150%;">Stáhnout nyní (github.com)</a>
+
+        <p>Podporované platformy:</p>
+
         <ul class="platforms">
             <li><img src="./images/metaquest.svg" alt="Meta Quest">*</li>
             <li><img src="./images/steamvr.png" alt="SteamVR"></li>
@@ -27,6 +31,25 @@
             <sub>* Podmínkou instalace je vlastnictví vývojářského účtu. Ten lze založit bezplatně.</sub>
         </p>
     </main>
+
+
+    <h2 class="header">Galerie</h2>
+    <div class="gallery">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SBnWp2jJ9SY?si=eTCZaSxmhnNI5c5c"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="gallery-item"></iframe>
+        <img src="https://raw.githubusercontent.com/sykdan/puzzle_prism/latex/images/screenshot1.png"
+            class="gallery-item">
+        <a class="gallery-item"
+            href="https://github.com/sykdan/puzzle_prism/releases/download/v1_0_1/Rozsirena_Realita_Thesis_Czech.pdf" style="position: relative;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="position: absolute; height: 80%;opacity: 0.3">
+                <path
+                    d="M6,2A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2H6M6,4H13V9H18V20H6V4M8,12V14H16V12H8M8,16V18H13V16H8Z" fill="white" />
+            </svg>
+            Maturitní práce (.pdf)
+        </a>
+    </div>
 </body>
 
 </html>
